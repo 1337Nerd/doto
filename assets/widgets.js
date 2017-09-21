@@ -21,7 +21,7 @@ function widget(api, callback, failure) {
 function weather() {
     // Weather widget
     widget(
-        "https://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=c3ec0e268239d674fbe215f89868ee73&units=metric",
+        "https://api.openweathermap.org/data/2.5/weather?q=GroveCity,oh&appid=c3ec0e268239d674fbe215f89868ee73&units=imperial",
         function (data) {
             var weather = document.getElementById('weather'),
                 temperature = document.createElement('p'),
