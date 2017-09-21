@@ -43,7 +43,6 @@ function weather() {
 function news() {
     var sources = [
             "https://newsapi.org/v1/articles?source=hacker-news&sortBy=top&apiKey=e0fddafbeb304299913237a89228f313",
-            "https://newsapi.org/v1/articles?source=reddit-r-all&sortBy=top&apiKey=e0fddafbeb304299913237a89228f313",
             "https://newsapi.org/v1/articles?source=google-news&sortBy=top&apiKey=e0fddafbeb304299913237a89228f313"
         ],
         source = sources[Math.floor(Math.random() * sources.length)];
